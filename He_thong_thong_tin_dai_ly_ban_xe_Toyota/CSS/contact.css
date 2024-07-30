@@ -1,0 +1,173 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap);  
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body
+{
+    background: linear-gradient(90deg, #eaf7f7 0% ,  #b2acac 30%,  #e5bbbb 30%,  #db9c9c 100%);
+
+}
+.contactUs
+{
+    position: relative;
+    width: 100%;
+    padding: 40px 100px;
+}
+.contactUs .tittle
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2-em;
+}
+.contactUs .tittle h2
+{
+    color: #111;
+}
+.contactTwo
+{   
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 5px 35px rgba(0,0,0,0.15);
+}
+.box
+{
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 5fr 4fr;
+    grid-template-areas: 
+    "form info"
+    "form map";
+    grid-gap: 20px;
+    margin-top: 20px;
+    padding-left: 60px;
+    margin-right: 60px;
+}
+.form
+{
+    grid-area: form;
+}
+.info
+{
+    grid-area: info;
+}
+.map
+{
+    grid-area: map;
+}
+.contactTwo h3
+{
+    color: #df2f55;
+    font-weight: 500;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+/* form */
+.formBox
+{
+    position: relative;
+    width: 100%;
+}
+.formBox .row50
+{
+    display: flex;
+    gap: 20px;
+}
+.inputBox
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 50%;
+  
+}
+.formBox .row100 .inputBox
+{
+    width: 100%;
+}
+.inputBox span
+{
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.inputBox input
+{
+    padding: 7px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid #333;
+}
+.inputBox textarea
+{
+    padding: 5px;
+    font-size: 1.1em;
+    outline: none;
+    border: 1px solid #333;
+    resize: none;
+    min-height: 100px;
+    margin-bottom: 7px
+}
+.inputBox input[type="submit"]
+{
+    background-color: #df2f55;
+    color: #fff;
+    border: none;
+    font-size: 1.1em;
+    max-width: 120px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 14px 15px;
+}
+.inputBox input[type="submit"]:hover{
+    color: #df2f55;
+    background-color: #fff;
+}
+.inputBox ::placeholder
+{
+    color: #999;
+}
+.info .infoBox div
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.info .infoBox div span
+{
+    min-width: 40px;
+    height: 40px;
+    color: #fff;
+    background: #df2f55;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.info .infoBox div a
+{
+    text-decoration: none;
+    color: #111;
+}
+.map
+{
+    padding: 0;
+}
+.map iframe
+{
+    width: 100%;
+    height: 100%;
+}
+/* reponsive design */
+@media (max-width:991px)
+{
+    
+}

@@ -1,0 +1,125 @@
+body{
+    background: url(/Hinh/loginback.jpg);
+    
+}
+
+
+.container{
+    width:100%;
+    height:auto;
+    margin-left:8px;
+    margin-bottom: -60px;
+
+}
+.login-container {
+    font-style: bold;
+    background-color: #fff;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid #0C0032;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+    opacity: 0.7;
+}
+.login-container h2{
+    text-align: center;
+}
+
+.login-container .form{
+    width:93%;
+    height:45px;
+    margin-top :5px;
+}
+
+#icon{
+    padding-top: 10px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #dc1414;
+}
+
+
+form {
+    text-align: left;
+    
+}
+form>i{
+    margin-left:-30px;
+    color: #000;
+  
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color:#0f0f0f;
+}
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    color:#000;
+}
+.form{
+    border-radius: 10px;
+}
+
+
+button {
+    background-color: #e60f0f;
+    color: #fff;
+    height: 45px;
+    width: 80px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;    
+    text-align: left;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+
+button:hover {
+    background-color: #fff;
+    color:#EA388B;
+}
+
+
+
+
+input[type='submit']{
+    background-color: #e70f0f;
+    color:#ccc;
+}
+input[type='submit']:hover{
+    background-color: #145ead;
+    color:#e70f0f;
+}
+input[type='date']{
+
+color: #000;    
+}
+.log{
+    display: flex;
+    margin-top: 10px;
+   
+}
+.log p{
+   margin-left: 40px;
+   font-size: 20px;
+   margin-top: 20px;
+
+}
+.log a{
+    text-decoration: none;
+    color: #e70f0f;
+}

@@ -1,0 +1,82 @@
+
+
+body{
+    background-color: #f1f1f1;
+
+    
+}
+
+.container{
+    width:100%;
+    height:auto;
+   
+    
+}
+table{
+    text-align: center;
+    color:#000;
+    text-align: center;
+    width: 85%;
+    margin-top: 20px;
+    padding: 20px;
+    font-weight: bold;  
+    border-radius: 20px;
+    border:10px;
+    background-color: #fff;
+    margin-left: 100px;
+   
+}
+
+table th{
+    color:#EE4C7C;
+}
+th,td{
+    padding:10px;
+    border: 1px solid #f4eaea; /* Định dạng viền mặc định */
+    text-align: center;
+    border-radius: 5px ;
+}
+
+
+
+button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px ;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 17px;
+    text-align: left;
+
+}
+
+button:hover {
+    background-color: #fff;
+    color:#000;
+    
+}
+
+.cost{
+    color:#C3037F;
+    font-size:17px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left:110px;
+}
+i{
+    color: #000;
+}
+
+
+a{
+    margin:8px;
+    text-decoration: none;
+    color:#fff;
+}
+a:hover{
+    color: #EA388B;
+}
+
+
+
+

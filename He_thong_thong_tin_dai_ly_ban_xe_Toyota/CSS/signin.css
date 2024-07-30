@@ -1,0 +1,132 @@
+body{
+    background-color: #fff;
+    background: url(/Hinh/logincar.png);
+}
+
+
+.container{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 40em;
+    height: 18em;
+    margin-top: -20em;
+    margin-left: -18em;
+  
+}
+.login-container {
+    font-style: bold;
+    background-color: #fff;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid #0C0032;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+    opacity: 0.7;
+}
+.login-container h2{
+    text-align: center;
+}
+
+.login-container .form{
+    width:93%;
+    height:45px;
+    margin-top :5px;
+}
+
+#icon{
+    padding-top: 10px;
+}
+
+h2 {
+    margin-top: 0;
+    color: #e41414;
+}
+
+
+form {
+    text-align: left;
+    
+}
+form>i{
+    margin-left:-30px;
+    color: #000;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color:#0f0f0f;
+}
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    color:#000;
+}
+.form{
+    border-radius: 10px;
+}
+
+
+button {
+    background-color: #e41414;
+    color: #fff;
+    height: 45px;
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;    
+    text-align: left;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+
+button:hover {
+    background-color: #fff;
+    color:#EA388B;
+}
+
+
+#account{
+    width:93%;
+    height:30px;
+    margin-top:10px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+input[type='submit']{
+    background-color: #EA388B;
+    color:#ccc;
+}
+input[type='submit']:hover{
+    background-color: #145ead;
+    color:#EA388B;
+}
+.log{
+    display: flex;
+    margin-top: 10px;
+   
+}
+.log p{
+   margin-left: 40px;
+   font-size: 20px;
+   margin-top: 20px;
+
+}
+.log a{
+    text-decoration: none;
+    color: #F64C72;
+}
